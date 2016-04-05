@@ -1,7 +1,47 @@
-body { 
+/*www.theregister.co.nz remake*/
 
-	background-color: Orange;
-	background-size: 640px;
+body {
+	font-family: futura;
+}
 
+nav ul {
+	list-style: none;
+	padding-left: 0;
 
- }
+}
+
+nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #e5005f;
+	color: white;
+	padding: 5px 10px;
+	margin: 2px 0;
+	display: inline-block;
+	font-size: larger
+	;
+}
+
+nav li a:hover,
+nav #active {
+	background-color: #333333;
+}
+
+nav	{
+	padding: 10px 0 0 10px;
+	width: 240px;
+}
+
+nav > a{ /* grab anchors that are direct desendant of the nav */
+	display: block;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: bold;
+
+}
+
+nav > a:hover {
+	color: #e5005f ;
+}
